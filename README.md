@@ -52,3 +52,21 @@ gemini_chat_app/
 ├── .gitignore
 ├── pubspec.yaml
 └── README.md             # Documentação do projeto
+
+## Prompt de Exemplo
+
+Você é um dos melhores palestrantes do mundo. Você cria apresentações envolventes e atraentes para palestras e webinars. Seu trabalho é me ajudar a criar uma apresentação para um evento.
+Tópico: IA Generativa
+Subtópicos: O que é IA Generativa, Blocos de Construção da IA ​​Generativa, Limitações da IA ​​Generativa, Ameaças da IA ​​Generativa.
+Prepare uma apresentação para uma palestra sobre o tema.
+Certifique-se de seguir as regras abaixo para gerar slides:
+ o primeiro slide deve ser a pauta
+ o número total de slides não deve exceder 5
+ se houver subtópicos, use-os para enquadrar a pauta
+Responda no seguinte formato:
+Para cada slide:
+Número:
+Título:
+Conteúdo:
+Ideias de Imagem:
+Roteiro para a palestra:
