@@ -94,7 +94,7 @@ class _ChatScreenState extends State<ChatScreen> {
           Container(
             margin: EdgeInsets.symmetric(horizontal: 4.0),
             child: IconButton(
-                    icon: Icon(Icons.send, color: Theme.of(context).colorScheme.primary),
+                    icon: Icon(Icons.send_outlined, color: Theme.of(context).colorScheme.primary),
                     onPressed: () => _handleSubmitted(_textController.text),
                   ),
           ),
