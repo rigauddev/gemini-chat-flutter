@@ -65,11 +65,11 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Image.asset('assets/images/logo_gdgssa.png', width: 600, height: 150),
               Text(
-                "Bem-vindo ao GDGSSA",
+                "Bem-vindo",
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
+              Image.asset('assets/images/gdg_lauro.png', width: 600, height: 150),
               SizedBox(height: 40),
               ElevatedButton(
                 onPressed: _navigateToChat,
